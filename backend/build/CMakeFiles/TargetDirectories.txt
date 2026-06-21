@@ -1,0 +1,3 @@
+C:/Users/Satvik/OneDrive/Desktop/OneDrive/Documents/search-engine/backend/build/CMakeFiles/search_engine.dir
+C:/Users/Satvik/OneDrive/Desktop/OneDrive/Documents/search-engine/backend/build/CMakeFiles/edit_cache.dir
+C:/Users/Satvik/OneDrive/Desktop/OneDrive/Documents/search-engine/backend/build/CMakeFiles/rebuild_cache.dir

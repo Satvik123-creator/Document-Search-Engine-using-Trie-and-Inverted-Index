@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #202124;
+  --text-secondary: #5f6368;
+  --border: #e8eaed;
+  --accent: #1a73e8;
+  --accent-hover: #1557b0;
+  --shadow: rgba(0, 0, 0, 0.06);
+}
+
+.dark {
+  --bg: #1a1a2e;
+  --card: #16213e;
+  --text: #e0e0e0;
+  --text-secondary: #9ca3af;
+  --border: #2a2a4a;
+  --accent: #4fc3f7;
+  --accent-hover: #29b6f6;
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@layer utilities {
+  .bg-surface { background-color: var(--card); }
+  .text-secondary { color: var(--text-secondary); }
+  .border-surface { border-color: var(--border); }
+}
