@@ -70,7 +70,7 @@ graph TD
     end
 
     %% Routing / Proxy Subsystem
-    Vite[Vite Dev Server Proxy /api] --> |localhost:8080| CppServer
+    Vite["Vite Dev Server Proxy /api"] --> |localhost:8080| CppServer
 
     %% Backend Subsystem
     subgraph Backend [Native Windows C++ Server]
@@ -96,7 +96,7 @@ graph TD
 
     %% Storage File System
     subgraph Data [Storage Layer]
-        Documents[/*.txt documents] --> Parser
+        Documents["*.txt documents"] --> Parser
     end
 ```
 
