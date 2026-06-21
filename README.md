@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Search Engine
 
 A full-stack search engine with a C++ backend and React frontend.
@@ -26,3 +27,6 @@ cd frontend
 npm install
 npm run dev
 ```
+=======
+# Document-Search-Engine-using-Trie-and-Inverted-Index
+>>>>>>> a1b1927e9cc3938cddd6d5d05681239dd2446535
